@@ -34,6 +34,7 @@ gulp.task( 'styles', function(){
 		.pipe( gulp.dest( cssDestPath ) );
 });
 
+
 // Watch Task.
 gulp.task( 'watch', function(){
 	gulp.watch( jsSrcPath, [ 'scripts' ] ); // path, tasks to run.
