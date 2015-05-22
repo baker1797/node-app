@@ -41,5 +41,4 @@ gulp.task( 'watch', function(){
 	gulp.watch( cssSrcPath, [ 'styles' ] ); // path, tasks to run.
 });
 
-
 gulp.task( 'default', [ 'scripts', 'styles', 'watch' ] );
